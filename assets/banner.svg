@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="230" viewBox="0 0 800 230" xml:space="preserve">
+<style>
+.t{font:15px 'Courier New',monospace;fill:#c9d1d9;white-space:pre}
+.g{fill:#3fb950}.b{fill:#58a6ff}.d{fill:#8b949e}.y{fill:#d29922}
+.l{opacity:0;animation:in .4s forwards}
+@keyframes in{to{opacity:1}}
+@keyframes blink{50%{opacity:0}}
+.c{animation:blink 1s steps(1) infinite}
+</style>
+<rect width="800" height="230" rx="12" fill="#0d1117"/>
+<rect width="800" height="34" rx="12" fill="#161b22"/>
+<circle cx="22" cy="17" r="6" fill="#ff5f56"/><circle cx="42" cy="17" r="6" fill="#ffbd2e"/><circle cx="62" cy="17" r="6" fill="#27c93f"/>
+<text class="t d" x="340" y="22">pyprune</text>
+<text class="t l" x="24" y="66" style="animation-delay:.3s"><tspan class="g">$</tspan> python pyprune.py src/</text>
+<text class="t l y" x="24" y="96" style="animation-delay:1s">src/app.py:3     unused import 'os'</text>
+<text class="t l y" x="24" y="118" style="animation-delay:1.3s">src/utils.py:7   unused import 'json'</text>
+<text class="t l y" x="24" y="140" style="animation-delay:1.6s">src/models.py:1  unused import 'typing.Optional'</text>
+<text class="t l d" x="24" y="164" style="animation-delay:2s">3 unused import(s) in 3 file(s). Run with --fix to remove them.</text>
+<text class="t l" x="24" y="190" style="animation-delay:2.6s"><tspan class="g">$</tspan> python pyprune.py src/ --fix</text>
+<text class="t l g" x="24" y="214" style="animation-delay:3.4s">Removed 3 unused import(s) in 3 file(s).</text>
+<rect class="c" x="410" y="201" width="9" height="15" fill="#58a6ff"/>
+</svg>
