@@ -1,4 +1,6 @@
 <p align="center">
+
+<p align="center"><img src="assets/readme-banner.svg" alt="Animated PyPrune code cleanup banner" width="100%"></p>
   <img src="assets/banner.svg" alt="pyprune animated terminal demo" width="800">
 </p>
 
